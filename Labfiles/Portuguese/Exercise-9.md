@@ -10,6 +10,16 @@ Neste exercício, irá gerar documentação utilizando o GitHub Copilot.
 
 >**Nota**: Se não conseguir ver nenhuma sugestão do GitHub Copilot no VS Code, reinicie o VS Code uma vez e tente novamente.
 
+
+## Objetivos do laboratório
+
+Você poderá concluir as seguintes tarefas:
+
+   - Tarefa 1: Gerar um arquivo README com o GitHub Copilot usando comentários
+   - Tarefa 2: Enviar código do codespace para o seu repositório
+
+### Tarefa 1: Gerar um arquivo README com o GitHub Copilot usando comentários
+
 1. A partir do codespace na janela do VS Code Explorer, crie um novo ficheiro.
 
    ![](../../media/chat-code-new.png)
@@ -26,8 +36,40 @@ Neste exercício, irá gerar documentação utilizando o GitHub Copilot.
 
    ![](../../media/8thex.png)
 
+### Tarefa 2: Envie o código para seu repositório a partir do codespace
+
+1. Execute o comando abaixo para adicionar os arquivos:
+
+    ```
+    git add .
+    ```
+
+1. Execute o comando abaixo para confirmar os arquivos:
+
+    ```
+    git commit -m "files"
+    ```
+
+1. Execute o comando abaixo para enviar os arquivos. Copie seu e-mail de usuário do GitHub e cole-o entre aspas.
+
+   ```
+   git config --global user.email "<inject key="AzureAdUserEmail" enableCopy="true"/>"
+   ```
+
+1. Execute o comando abaixo para confirmar os arquivos, substituindo "xxxx" pelo número no e-mail.
+
+   ```
+   git config --global user.name "<inject key="GitHub User Name" enableCopy="true"/>_clabs"
+   ```
+
+1. Execute o comando abaixo para enviar todos os arquivos para o repositório:
+
+    ```
+    git push
+    ```
+
 ## Resumo
 
-Neste exercício, gerou com sucesso um documento utilizando o GitHub Copilot Chat.
+Neste exercício, você gerou com sucesso um documento usando o GitHub Copilot Chat e enviou o código para seu repositório.
 
 ### Concluiu o laboratório com sucesso

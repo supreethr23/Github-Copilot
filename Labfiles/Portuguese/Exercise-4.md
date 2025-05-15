@@ -58,6 +58,48 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/arm-save.png)
 
+1. Após salvar o arquivo, abra o ícone do portal do Azure na área de trabalho.
+
+   ![](../../media/hub60.png)
+
+1. Na aba **Entrar no Microsoft Azure**, você verá uma tela de login. Digite o seguinte e-mail/nome de usuário e clique em **Avançar**.
+
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+
+1. Agora digite a seguinte senha e clique em **Entrar**.
+
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+
+1. Se a janela pop-up **Permanecer conectado?** aparecer, clique em **Não**.
+
+1. Selecione **Cancelar** na página **Bem-vindo ao Azure**.
+
+1. Pesquise por **Implantação personalizada(1)** e selecione **Implantação personalizada(2)**.
+
+   ![](../../media/github2.png)
+
+1. Clique em **Selecionar um modelo(1)** e em **Crie seu próprio modelo no editor(2)**.
+
+   ![](../../media/github3.png)
+
+1. Copie e **cole(1)** o código que você salvou anteriormente no VS code na seção **Editar modelo** e clique em **Salvar(2)**.
+
+      ![](../../media/github5.png)
+
+1. Na seção de detalhes do projeto, adicione os seguintes detalhes:
+
+   - Assinatura - **Selecione a assinatura padrão (1)**
+   - Grupo de Recursos - **Selecione JumpVM-RG-<inject key="Deployment-id" enableCopy="false"/> (2)**
+   - Região - **Selecione a região padrão. (3)**
+   - Nome da Conta de Armazenamento - **storage<inject key="Deployment-id" enableCopy="false"/> (4)**
+   - Clique em **Revisar + criar (5)**
+
+1. Clique em **Criar**.
+
+1. Clique em **Ir para o recurso**.
+
+1. Verifique se a **Conta de armazenamento** foi criada.
+
 ### Tarefa 2: Gerar código por chat que utiliza o Terraform para implementar recursos no Azure
 
 1. Na barra de atividades do Visual Studio Code, clique no ícone GitHub Copilot Chat para abrir a janela GitHub Copilot Chat.
@@ -109,38 +151,6 @@ Poderá completar as seguintes tarefas:
 1. Pressione `CTRL + S` para guardar o ficheiro e verá uma recomendação para instalar a extensão `PowerShell`. Clique em Instalar. Nomeie o ficheiro como `powershell.ps1` e clique em **OK**.
 
    ![](../../media/ps-save.png)
-
-### Tarefa 4: Enviar código para o seu repositório a partir de GitHub Codespaces
-
-1. Utilize o terminal VS Code para adicionar ficheiros ao repositório. Abra o VS Code Terminal se ainda não estiver aberto.
-
-1. Execute o comando abaixo para adicionar os ficheiros `arm.json` , `terraform.tf` e `powershell.ps1` ao repositório:
-
-    ```
-    git add arm.json terraform.tf powershell.ps1
-    ```
-
-1. De seguida, na fase terminal do VS Code, envie as alterações para o repositório:
-
-    ```
-    git commit -m "Copilot third commit"
-    ```
-
-1. Por fim, a partir do terminal VS Code, envie o código para o repositório:
-
-    ```
-    git push
-    ```
-
-   ![](../../media/ex-4-push5.png)
-
-   >**Nota**: Aguarde cerca de 60 segundos e atualize a página inicial do repositório para o passo seguinte.
-
-1. Pode verificar os ficheiros `arm.json`, `powershell.ps1` e `terraform.tf` disponíveis no seu repositório GitHub.
-
-   ![](../../media/ex-4-github5.png)
-
-1. Clique em **Próximo** abaixo para passar para a página seguinte.
 
 ### Resumo
 

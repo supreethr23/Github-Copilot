@@ -8,37 +8,10 @@ Neste exercício, irá utilizar as funcionalidades do GitHub Copilot para constr
 
 Poderá completar as seguintes tarefas:
 
-- Tarefa 1: Configurar o seu ambiente
-- Tarefa 2: Testar o seu Codespace GitHub
-- Tarefa 3: Criação da lógica do jogo
+- Tarefa 1: Testar o seu Codespace GitHub
+- Tarefa 2: Criação da lógica do jogo
 
-### Tarefa 1: Configurar o seu ambiente
-
-1. Navegue até [Mini-game-with-copilot](https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot) e clique em **Fork**.
-
-   ![](../../media/vs2.png)
-
-1. Clique em **Create Fork**.
-
-   ![](../../media/vs20.png)
-
-1. Depois de o repositório ser bifurcado, selecione o botão **Code (1)** e, no separador **Codespaces**, selecione **Create codespace on main (2)**.
-
-   ![](../../media/vs6.png)
-
-   >**Nota**: Caso encontre um prompt pop-up. Clique em **Open** para continuar.
-
-   ![](../../media/vs7.png)
-
-1. Clique em **Open** quando lhe for pedido para permitir a extensão Github Codespaces.
-
-   ![](../../media/vs25.png)
-
-1. Visualize o repositório.
-
-   ![](../../media/vs11.png)
-
-### Tarefa 2: Testar o seu Codespace GitHub
+### Tarefa 1: Testar o seu Codespace GitHub
 
 1. Abra o ficheiro **app.py**.
 
@@ -67,7 +40,21 @@ Poderá completar as seguintes tarefas:
    ![](../../media/vs16.png)
 
 
-### Tarefa 3: Criação da lógica do jogo
+### Tarefa 2: Criação da lógica do jogo
+
+1. Clique nas três linhas horizontais no canto superior esquerdo **(1)**, clique em **File (2)** e depois clique em **New Window (3)**.
+
+   ![](../../media/c31.png)
+
+1. Clique nas **reticências (1)** na parte superior, clique em **Terminal (2)** e selecione **New Terminal (3)**.
+
+   ![](../../media/openterminal.png)
+
+1. Execute o seguinte comando para clonar o repositório **Mii-game-with-copilot**.
+
+   ```
+   git clone https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot.git
+   ```
 
 1. Apague o código gerado no passo anterior e utilize o atalho CTRL+I para solicitar ao GitHub Copilot que execute uma ação. Cole o seguinte **comentário (1)** para pesquisar o código e clique no botão Fazer pedido **(Enter) (2)** e clique em **Accept (3)** para utilizar o código.
 

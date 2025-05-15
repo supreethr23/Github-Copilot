@@ -74,9 +74,9 @@ Poderá completar as seguintes tarefas:
 
    ![](../../media/inn-2.png)
 
-8. No canto inferior direito, receberá um pedido para entrar no GitHub.
+8. Na janela pop-up que aparece, na página **Sign in to Use Copilot for Free**, clique em **Sign in**
 
-   ![](../../media/signingit.png)
+   ![](../../media/signin-to-githubcopilotupd1.png)
 
    > **Nota**: Se encontrar o erro **No access to GitHub Copilot found**, por favor contacte `cloudlabs-support@spektrasystems.com` para obter mais assistência.
 
